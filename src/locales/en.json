@@ -1,0 +1,46 @@
+{
+    "app": {
+        "name": "BottleTrack",
+        "tagline": "Fleet visibility, delivery by delivery."
+    },
+    "shell": {
+        "skip": "Skip to main content",
+        "primary-navigation": "Primary",
+        "open-navigation": "Open navigation",
+        "language": "Language"
+    },
+    "navigation": {
+        "home": "Home",
+        "analytics": "Dashboard",
+        "operations": "Operations",
+        "monitoring": "Monitoring",
+        "incidents": "Incidents",
+        "history": "History",
+        "vehicles": "Vehicles",
+        "drivers": "Drivers",
+        "users": "Users",
+        "company": "Company",
+        "tracking": "My orders",
+        "profile": "My profile",
+        "devices": "IoT devices"
+    },
+    "home": {
+        "title": "Welcome to BottleTrack",
+        "lead": "Choose a section from the menu to start working."
+    },
+    "not-found": {
+        "title": "Page not found",
+        "content": "The path {path} is not available.",
+        "go-home": "Go to home"
+    },
+    "shared": {
+        "actions": "Actions",
+        "load-error": "We could not load the information. Try again in a few minutes.",
+        "form": {
+            "save": "Save",
+            "cancel": "Cancel",
+            "required": "This field is required.",
+            "failure": "We could not save the changes. Try again."
+        }
+    }
+}
