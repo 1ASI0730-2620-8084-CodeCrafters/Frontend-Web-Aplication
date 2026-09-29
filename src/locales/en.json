@@ -33,6 +33,94 @@
         "content": "The path {path} is not available.",
         "go-home": "Go to home"
     },
+    "iam": {
+        "sign-in": {
+            "title": "Sign in",
+            "lead": "Access your BottleTrack account.",
+            "showcase": "Follow every transport operation, monitor your fleet and resolve incidents in real time.",
+            "email": "Email",
+            "email-placeholder": "name{'@'}company.com",
+            "password": "Password",
+            "submit": "Sign in",
+            "terms": "Terms of service",
+            "email-required": "Enter your email.",
+            "email-invalid": "Enter a valid email, such as name{'@'}company.com.",
+            "password-required": "Enter your password.",
+            "errors": {
+                "invalid-credentials": "The email or password is incorrect.",
+                "inactive-user": "Your account is inactive. Contact the administrator of your company.",
+                "service-unavailable": "We could not reach BottleTrack. Try again in a few minutes."
+            }
+        },
+        "sign-out": "Sign out",
+        "roles": {
+            "administrator": "Administrator",
+            "fleet_supervisor": "Fleet supervisor",
+            "delivery_point_owner": "Delivery point owner"
+        },
+        "profile": {
+            "title": "My profile",
+            "first-name": "First name",
+            "last-name": "Last name",
+            "email": "Email",
+            "role": "Role",
+            "company": "Company",
+            "link": "View my profile"
+        },
+        "company": {
+            "title": "Company",
+            "lead": "Keep the information of your company up to date.",
+            "business-name": "Business name",
+            "tax-id": "Tax ID (RUC)",
+            "email": "Company email",
+            "phone": "Phone",
+            "address": "Address",
+            "save": "Save changes",
+            "business-name-required": "Enter the business name.",
+            "success": "The company information was saved.",
+            "failure": "We could not save the company information. Try again.",
+            "load-error": "We could not load the company information."
+        },
+        "users": {
+            "title": "Users",
+            "lead": "Register the people of your company and choose what each one can do.",
+            "new": "New user",
+            "name": "Name",
+            "email": "Email",
+            "role": "Role",
+            "status": "Status",
+            "actions": "Actions",
+            "edit": "Edit {name}",
+            "role-of": "Role of {name}",
+            "you": "You",
+            "empty": "There are no users yet.",
+            "load-error": "We could not load the users.",
+            "role-success": "{name} is now {role}.",
+            "failure": "We could not save the changes. Try again.",
+            "created": "{name} was registered.",
+            "updated": "The data of {name} was saved."
+        },
+        "user-form": {
+            "new-title": "New user",
+            "edit-title": "Edit user",
+            "first-name": "First name",
+            "last-name": "Last name",
+            "email": "Email",
+            "role": "Role",
+            "password": "Initial password",
+            "password-hint": "At least 8 characters. Share it with the user so they can sign in.",
+            "save": "Save",
+            "cancel": "Cancel",
+            "required": "This field is required.",
+            "email-invalid": "Enter a valid email, such as name{'@'}company.com.",
+            "password-short": "Use at least 8 characters.",
+            "email-taken": "Another user already uses this email."
+        },
+        "statuses": {
+            "active": "Active",
+            "inactive": "Inactive"
+        }
+    },
     "shared": {
         "actions": "Actions",
         "load-error": "We could not load the information. Try again in a few minutes.",

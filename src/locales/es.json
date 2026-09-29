@@ -33,6 +33,94 @@
         "content": "La ruta {path} no está disponible.",
         "go-home": "Ir al inicio"
     },
+    "iam": {
+        "sign-in": {
+            "title": "Iniciar sesión",
+            "lead": "Accede a tu cuenta de BottleTrack.",
+            "showcase": "Sigue cada operación de transporte, monitorea tu flota y resuelve incidencias en tiempo real.",
+            "email": "Correo electrónico",
+            "email-placeholder": "nombre{'@'}empresa.com",
+            "password": "Contraseña",
+            "submit": "Iniciar sesión",
+            "terms": "Términos de servicio",
+            "email-required": "Ingresa tu correo electrónico.",
+            "email-invalid": "Ingresa un correo válido, como nombre{'@'}empresa.com.",
+            "password-required": "Ingresa tu contraseña.",
+            "errors": {
+                "invalid-credentials": "El correo o la contraseña son incorrectos.",
+                "inactive-user": "Tu cuenta está inactiva. Comunícate con el administrador de tu empresa.",
+                "service-unavailable": "No pudimos conectar con BottleTrack. Inténtalo de nuevo en unos minutos."
+            }
+        },
+        "sign-out": "Cerrar sesión",
+        "roles": {
+            "administrator": "Administrador",
+            "fleet_supervisor": "Supervisor de flota",
+            "delivery_point_owner": "Responsable de bodega"
+        },
+        "profile": {
+            "title": "Mi perfil",
+            "first-name": "Nombres",
+            "last-name": "Apellidos",
+            "email": "Correo electrónico",
+            "role": "Rol",
+            "company": "Empresa",
+            "link": "Ver mi perfil"
+        },
+        "company": {
+            "title": "Empresa",
+            "lead": "Mantén actualizada la información de tu empresa.",
+            "business-name": "Razón social",
+            "tax-id": "RUC",
+            "email": "Correo de la empresa",
+            "phone": "Teléfono",
+            "address": "Dirección",
+            "save": "Guardar cambios",
+            "business-name-required": "Ingresa la razón social.",
+            "success": "La información de la empresa se guardó.",
+            "failure": "No pudimos guardar la información de la empresa. Inténtalo de nuevo.",
+            "load-error": "No pudimos cargar la información de la empresa."
+        },
+        "users": {
+            "title": "Usuarios",
+            "lead": "Registra a las personas de tu empresa y elige qué puede hacer cada una.",
+            "new": "Nuevo usuario",
+            "name": "Nombre",
+            "email": "Correo electrónico",
+            "role": "Rol",
+            "status": "Estado",
+            "actions": "Acciones",
+            "edit": "Editar a {name}",
+            "role-of": "Rol de {name}",
+            "you": "Tú",
+            "empty": "Todavía no hay usuarios.",
+            "load-error": "No pudimos cargar los usuarios.",
+            "role-success": "{name} ahora es {role}.",
+            "failure": "No pudimos guardar los cambios. Inténtalo de nuevo.",
+            "created": "{name} quedó registrado.",
+            "updated": "Los datos de {name} se guardaron."
+        },
+        "user-form": {
+            "new-title": "Nuevo usuario",
+            "edit-title": "Editar usuario",
+            "first-name": "Nombres",
+            "last-name": "Apellidos",
+            "email": "Correo electrónico",
+            "role": "Rol",
+            "password": "Contraseña inicial",
+            "password-hint": "Al menos 8 caracteres. Compártela con el usuario para que pueda iniciar sesión.",
+            "save": "Guardar",
+            "cancel": "Cancelar",
+            "required": "Este campo es obligatorio.",
+            "email-invalid": "Ingresa un correo válido, como nombre{'@'}empresa.com.",
+            "password-short": "Usa al menos 8 caracteres.",
+            "email-taken": "Otro usuario ya usa este correo."
+        },
+        "statuses": {
+            "active": "Activo",
+            "inactive": "Inactivo"
+        }
+    },
     "shared": {
         "actions": "Acciones",
         "load-error": "No pudimos cargar la información. Inténtalo de nuevo en unos minutos.",
