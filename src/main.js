@@ -37,6 +37,10 @@ import BottleTrackPreset from './theme.js';
 import i18n from './i18n.js';
 import pinia from './pinia.js';
 import router from './router.js';
+import { registerRequestInterceptor } from './shared/infrastructure/base-api.js';
+import { iamInterceptor } from './iam/infrastructure/iam.interceptor.js';
+
+registerRequestInterceptor(iamInterceptor);
 
 const app = createApp(App)
     .use(pinia)
