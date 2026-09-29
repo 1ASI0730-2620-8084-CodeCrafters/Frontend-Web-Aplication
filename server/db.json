@@ -1,1 +1,59 @@
-{}
+{
+    "organizations": [
+        {
+            "id": "6f1c2a7e-3b4d-4c8e-9f10-2a3b4c5d6e7f",
+            "businessName": "Distribuidora San Marino S.A.C.",
+            "taxId": "20512345678",
+            "email": "contacto@sanmarino.pe",
+            "phone": "+51 1 456 7890",
+            "address": "Av. Argentina 2450, Callao",
+            "createdAt": "2026-09-01T09:00:00"
+        }
+    ],
+    "users": [
+        {
+            "id": "a1b2c3d4-0001-4a5b-8c9d-1e2f3a4b5c6d",
+            "organizationId": "6f1c2a7e-3b4d-4c8e-9f10-2a3b4c5d6e7f",
+            "firstName": "Lucía",
+            "lastName": "Paredes Quispe",
+            "email": "lucia.paredes@sanmarino.pe",
+            "password": "BottleTrack2026",
+            "role": "administrator",
+            "status": "active",
+            "createdAt": "2026-09-01T09:05:00"
+        },
+        {
+            "id": "a1b2c3d4-0002-4a5b-8c9d-1e2f3a4b5c6d",
+            "organizationId": "6f1c2a7e-3b4d-4c8e-9f10-2a3b4c5d6e7f",
+            "firstName": "Arturo Eduardo",
+            "lastName": "Jiménez Rosas",
+            "email": "arturo.jimenez@sanmarino.pe",
+            "password": "BottleTrack2026",
+            "role": "fleet_supervisor",
+            "status": "active",
+            "createdAt": "2026-09-01T09:10:00"
+        },
+        {
+            "id": "a1b2c3d4-0003-4a5b-8c9d-1e2f3a4b5c6d",
+            "organizationId": "6f1c2a7e-3b4d-4c8e-9f10-2a3b4c5d6e7f",
+            "firstName": "Carmen",
+            "lastName": "Salazar Torres",
+            "email": "carmen.salazar@bodegacarmen.pe",
+            "password": "BottleTrack2026",
+            "role": "delivery_point_owner",
+            "status": "active",
+            "createdAt": "2026-09-02T10:00:00"
+        },
+        {
+            "id": "a1b2c3d4-0004-4a5b-8c9d-1e2f3a4b5c6d",
+            "organizationId": "6f1c2a7e-3b4d-4c8e-9f10-2a3b4c5d6e7f",
+            "firstName": "Jorge",
+            "lastName": "Ramírez Soto",
+            "email": "jorge.ramirez@sanmarino.pe",
+            "password": "BottleTrack2026",
+            "role": "fleet_supervisor",
+            "status": "inactive",
+            "createdAt": "2026-09-03T08:30:00"
+        }
+    ]
+}
