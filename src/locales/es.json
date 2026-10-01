@@ -130,5 +130,64 @@
             "required": "Este campo es obligatorio.",
             "failure": "No pudimos guardar los cambios. Inténtalo de nuevo."
         }
+    },
+    "fleet": {
+        "vehicles": {
+            "title": "Vehículos",
+            "lead": "Registra los vehículos de tu flota y mantén sus datos actualizados.",
+            "new": "Nuevo vehículo",
+            "vehicle": "Vehículo",
+            "edit": "Editar vehículo {plateNumber}",
+            "empty": "Todavía no hay vehículos.",
+            "saved": "El vehículo {plateNumber} se guardó.",
+            "none-available": "Todos los vehículos están asignados o en mantenimiento."
+        },
+        "vehicle-form": {
+            "new-title": "Nuevo vehículo",
+            "edit-title": "Editar vehículo",
+            "plateNumber": "Placa",
+            "brand": "Marca",
+            "model": "Modelo",
+            "capacityInBoxes": "Capacidad (cajas)",
+            "status": "Estado",
+            "plate-number-invalid": "Usa el formato ABC-123.",
+            "plate-number-taken": "Otro vehículo ya usa esta placa.",
+            "capacity-invalid": "Ingresa una capacidad mayor que cero."
+        },
+        "vehicle-statuses": {
+            "available": "Disponible",
+            "assigned": "Asignado",
+            "in_maintenance": "En mantenimiento"
+        },
+        "drivers": {
+            "title": "Conductores",
+            "lead": "Registra a los conductores de tu empresa y mantén sus datos actualizados.",
+            "new": "Nuevo conductor",
+            "name": "Nombre",
+            "edit": "Editar a {name}",
+            "empty": "Todavía no hay conductores.",
+            "saved": "Los datos de {name} se guardaron.",
+            "none-available": "Todos los conductores están asignados o inactivos."
+        },
+        "driver-form": {
+            "new-title": "Nuevo conductor",
+            "edit-title": "Editar conductor",
+            "firstName": "Nombres",
+            "lastName": "Apellidos",
+            "documentNumber": "DNI",
+            "licenseNumber": "Licencia de conducir",
+            "phone": "Teléfono (opcional)",
+            "status": "Estado",
+            "document-number-invalid": "El DNI tiene 8 dígitos.",
+            "license-number-invalid": "Usa una letra seguida de 8 dígitos, como Q45678912.",
+            "documentNumber-taken": "Otro conductor ya usa este DNI.",
+            "licenseNumber-taken": "Otro conductor ya usa esta licencia."
+        },
+        "driver-statuses": {
+            "available": "Disponible",
+            "assigned": "Asignado",
+            "inactive": "Inactivo"
+        },
+        "only-available": "Mostrar solo disponibles"
     }
 }

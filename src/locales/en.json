@@ -130,5 +130,64 @@
             "required": "This field is required.",
             "failure": "We could not save the changes. Try again."
         }
+    },
+    "fleet": {
+        "vehicles": {
+            "title": "Vehicles",
+            "lead": "Register the vehicles of your fleet and keep their data up to date.",
+            "new": "New vehicle",
+            "vehicle": "Vehicle",
+            "edit": "Edit vehicle {plateNumber}",
+            "empty": "There are no vehicles yet.",
+            "saved": "Vehicle {plateNumber} was saved.",
+            "none-available": "All the vehicles are assigned or in maintenance."
+        },
+        "vehicle-form": {
+            "new-title": "New vehicle",
+            "edit-title": "Edit vehicle",
+            "plateNumber": "Plate number",
+            "brand": "Brand",
+            "model": "Model",
+            "capacityInBoxes": "Capacity (boxes)",
+            "status": "Status",
+            "plate-number-invalid": "Use the format ABC-123.",
+            "plate-number-taken": "Another vehicle already uses this plate number.",
+            "capacity-invalid": "Enter a capacity greater than zero."
+        },
+        "vehicle-statuses": {
+            "available": "Available",
+            "assigned": "Assigned",
+            "in_maintenance": "In maintenance"
+        },
+        "drivers": {
+            "title": "Drivers",
+            "lead": "Register the drivers of your company and keep their data up to date.",
+            "new": "New driver",
+            "name": "Name",
+            "edit": "Edit {name}",
+            "empty": "There are no drivers yet.",
+            "saved": "{name} was saved.",
+            "none-available": "All the drivers are assigned or inactive."
+        },
+        "driver-form": {
+            "new-title": "New driver",
+            "edit-title": "Edit driver",
+            "firstName": "First name",
+            "lastName": "Last name",
+            "documentNumber": "ID number (DNI)",
+            "licenseNumber": "Driver license",
+            "phone": "Phone (optional)",
+            "status": "Status",
+            "document-number-invalid": "The DNI has 8 digits.",
+            "license-number-invalid": "Use one letter followed by 8 digits, such as Q45678912.",
+            "documentNumber-taken": "Another driver already uses this DNI.",
+            "licenseNumber-taken": "Another driver already uses this license."
+        },
+        "driver-statuses": {
+            "available": "Available",
+            "assigned": "Assigned",
+            "inactive": "Inactive"
+        },
+        "only-available": "Show only available"
     }
 }
