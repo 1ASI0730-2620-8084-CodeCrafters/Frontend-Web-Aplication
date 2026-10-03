@@ -121,6 +121,181 @@
             "inactive": "Inactivo"
         }
     },
+    "operations": {
+        "tracking": {
+            "title": "Mis pedidos",
+            "lead": "Sigue tus pedidos de la distribuidora y reporta cualquier problema al recibirlos.",
+            "loading": "Cargando tus pedidos…",
+            "load-error": "No pudimos cargar tus pedidos.",
+            "retry": "Reintentar",
+            "active-title": "Pedidos en camino",
+            "active-empty": "No tienes pedidos en camino.",
+            "registered-title": "Pedidos recibidos",
+            "registered-empty": "Todavía no tienes pedidos recibidos.",
+            "operation": "Operación {code}",
+            "ordered": "Pedido",
+            "received": "Recibido",
+            "delivered-on": "Entregado el",
+            "missing": "Faltante",
+            "reason": "Motivo informado por la distribuidora",
+            "progress": "Avance",
+            "boxes": "{quantity} cajas",
+            "boxes-of": "{quantity} de {planned} cajas",
+            "stops-before": "Tu entrega es la siguiente | Falta 1 parada antes de la tuya | Faltan {n} paradas antes de la tuya",
+            "report": "Reportar un problema",
+            "reported": "Problema reportado",
+            "statuses": {
+                "on_route": "En camino",
+                "scheduled": "Programado",
+                "delivered": "Entregado",
+                "partially_delivered": "Entrega parcial",
+                "not_delivered": "No entregado"
+            },
+            "problem": {
+                "title": "Reportar un problema de recepción",
+                "type": "Tipo de problema",
+                "type-placeholder": "Selecciona el problema",
+                "types": {
+                    "shortage": "Cajas faltantes",
+                    "damaged_product": "Producto dañado",
+                    "broken_bottles": "Botellas rotas"
+                },
+                "quantity": "Cajas afectadas",
+                "description": "Detalle (opcional)",
+                "submit": "Enviar reporte",
+                "cancel": "Cancelar",
+                "type-required": "Selecciona el tipo de problema.",
+                "quantity-required": "Ingresa al menos una caja afectada.",
+                "success": "Tu reporte fue enviado. La distribuidora lo revisará.",
+                "failure": "No pudimos enviar tu reporte. Inténtalo de nuevo."
+            }
+        },
+        "list": {
+            "title": "Operaciones",
+            "lead": "Planifica las operaciones de transporte del día y sigue sus entregas.",
+            "new": "Nueva operación",
+            "filter": "Filtrar por estado",
+            "empty": "No hay operaciones con este estado.",
+            "code": "Código",
+            "route": "Ruta",
+            "date": "Fecha",
+            "vehicle": "Vehículo",
+            "driver": "Conductor",
+            "deliveries": "Entregas",
+            "status": "Estado",
+            "unassigned": "Sin asignar"
+        },
+        "create": {
+            "title": "Nueva operación de transporte",
+            "submit": "Crear operación",
+            "description": "Ruta",
+            "description-placeholder": "Ruta Lima Norte",
+            "scheduled-date": "Fecha programada",
+            "date-in-past": "Elige hoy o una fecha posterior."
+        },
+        "detail": {
+            "title": "Detalle de operación",
+            "breadcrumb": "Ruta de navegación",
+            "loading": "Cargando la operación…",
+            "not-found": "No encontramos esta operación.",
+            "start": "Iniciar operación",
+            "complete": "Finalizar operación",
+            "start-hint": "Asigna un vehículo, un conductor y al menos un punto de entrega para iniciar la operación.",
+            "started": "La operación se inició.",
+            "completed": "La operación se finalizó. El vehículo y el conductor vuelven a estar disponibles.",
+            "resources": "Recursos",
+            "vehicle": "Vehículo",
+            "driver": "Conductor",
+            "assign-vehicle": "Asignar un vehículo",
+            "change-vehicle": "Cambiar el vehículo",
+            "assign-driver": "Asignar un conductor",
+            "change-driver": "Cambiar el conductor",
+            "no-available-vehicles": "No hay vehículos disponibles.",
+            "no-available-drivers": "No hay conductores disponibles.",
+            "vehicle-assigned": "El vehículo quedó asignado.",
+            "driver-assigned": "El conductor quedó asignado.",
+            "progress": "Avance",
+            "progress-caption": "{registered} de {total} entregas con resultado"
+        },
+        "route": {
+            "title": "Ruta",
+            "add": "Agregar punto de entrega",
+            "empty": "Esta operación todavía no tiene puntos de entrega.",
+            "delivery-point": "Punto de entrega",
+            "quantity": "Cajas",
+            "status": "Estado",
+            "reason": "Motivo",
+            "record": "Registrar resultado",
+            "record-for": "Registrar el resultado de {name}",
+            "boxes": "{quantity} cajas",
+            "stop-added": "El punto de entrega se agregó a la ruta.",
+            "result-recorded": "El resultado de la entrega quedó registrado.",
+            "map": "Ver en el mapa",
+            "map-for": "Ver {name} en el mapa",
+            "order": "Orden",
+            "move-up": "Subir {name}",
+            "move-down": "Bajar {name}"
+        },
+        "stop-form": {
+            "title": "Agregar punto de entrega",
+            "delivery-point": "Punto de entrega",
+            "delivery-point-placeholder": "Selecciona el establecimiento",
+            "no-points": "Todos los puntos de entrega ya están en la ruta.",
+            "planned-quantity": "Cajas programadas",
+            "quantity-invalid": "Ingresa al menos una caja."
+        },
+        "result-form": {
+            "title": "Registrar resultado de la entrega",
+            "result": "Resultado",
+            "delivered-quantity": "Cajas entregadas",
+            "reason": "Motivo informado por el conductor",
+            "partial-quantity-invalid": "Ingresa una cantidad entre 1 y las cajas programadas menos una.",
+            "reason-required": "Ingresa el motivo."
+        },
+        "statuses": {
+            "all": "Todas",
+            "pending": "Pendiente",
+            "dispatched": "Despachada",
+            "in_progress": "En curso",
+            "completed": "Completada",
+            "cancelled": "Cancelada"
+        },
+        "delivery-statuses": {
+            "pending": "Pendiente",
+            "delivered": "Entregada",
+            "partially_delivered": "Entrega parcial",
+            "not_delivered": "No entregada"
+        },
+        "errors": {
+            "request-failed": "No pudimos guardar los cambios. Inténtalo de nuevo.",
+            "operation-not-pending": "Solo se pueden modificar operaciones pendientes.",
+            "resource-not-available": "Ese recurso ya no está disponible. Elige otro.",
+            "operation-cannot-start": "Primero asigna un vehículo, un conductor y al menos un punto de entrega.",
+            "delivery-not-recordable": "Esta entrega ya no se puede registrar.",
+            "operation-has-pending-deliveries": "La operación todavía tiene entregas sin resultado.",
+            "operation-already-started": "La operación ya se inició, por eso ya no se puede cancelar.",
+            "cancellation-reason-required": "Ingresa el motivo de la cancelación."
+        },
+        "cancel": {
+            "open": "Cancelar operación",
+            "title": "Cancelar la operación {code}",
+            "submit": "Cancelar operación",
+            "warning": "El vehículo y el conductor volverán a estar disponibles. Esta acción no se puede deshacer.",
+            "reason": "Motivo",
+            "reason-required": "Ingresa el motivo de la cancelación.",
+            "success": "La operación fue cancelada.",
+            "reason-label": "Cancelada: {reason}"
+        },
+        "history": {
+            "title": "Historial",
+            "lead": "Revisa las operaciones completadas, de la más reciente a la más antigua.",
+            "range": "Rango de fechas",
+            "empty": "No hay operaciones completadas en este rango.",
+            "completed-at": "Completada el",
+            "results": "Resultados",
+            "results-summary": "{delivered} entregadas · {partial} parciales · {failed} no entregadas"
+        }
+    },
     "shared": {
         "actions": "Acciones",
         "load-error": "No pudimos cargar la información. Inténtalo de nuevo en unos minutos.",
