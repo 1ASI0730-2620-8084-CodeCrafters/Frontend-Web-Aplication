@@ -3,6 +3,7 @@ import i18n from './i18n.js';
 import iamRoutes from './iam/presentation/iam-routes.js';
 import fleetRoutes from './fleet/presentation/fleet-routes.js';
 import monitoringRoutes from './monitoring/presentation/monitoring-routes.js';
+import incidentsRoutes from './incidents/presentation/incidents-routes.js';
 import operationsRoutes from './operations/presentation/operations-routes.js';
 import { authenticationGuard } from './iam/infrastructure/authentication.guard.js';
 
@@ -16,6 +17,7 @@ const routes = [
     { path: '/fleet', children: fleetRoutes },
     { path: '/monitoring', children: monitoringRoutes },
     ...operationsRoutes,
+    ...incidentsRoutes,
     { path: '/:pathMatch(.*)*', name: 'not-found', component: pageNotFound, meta: { title: 'not-found.title' } }
 ];
 
