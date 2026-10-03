@@ -364,5 +364,70 @@
             "inactive": "Inactive"
         },
         "only-available": "Show only available"
+    },
+    "monitoring": {
+        "title": "Monitoring",
+        "lead": "Follow the cargo of the operations in progress with the readings of the IoT devices.",
+        "refresh": "Refresh",
+        "loading": "Loading the readings…",
+        "empty": "There are no operations in progress right now.",
+        "no-device": "The vehicle of this operation has no IoT device.",
+        "no-readings": "Device {serial} has not sent readings yet.",
+        "cargo-safe": "Cargo in safe range",
+        "cargo-at-risk": "Cargo at risk",
+        "temperature": "Temperature",
+        "impact": "Impact",
+        "location": "Location",
+        "safe-range": "Safe range {min} °C – {max} °C",
+        "threshold": "Threshold {value} g",
+        "recorded-at": "Last reading: {date}",
+        "simulate": "Simulate reading",
+        "reading-safe": "New reading for {code}: the cargo is in the safe range.",
+        "alert-raised": "Alert on {code}",
+        "alert-types": {
+            "temperature_out_of_range": "Temperature out of the safe range",
+            "impact_detected": "Impact detected",
+            "device_offline": "Device offline"
+        },
+        "alerts": {
+            "title": "Pending alerts ({count})",
+            "empty": "There are no pending alerts.",
+            "acknowledge": "Mark as reviewed",
+            "acknowledge-for": "Mark {type} on {code} as reviewed",
+            "acknowledged": "The alert was marked as reviewed.",
+            "report-incident": "Report incident",
+            "report-incident-for": "Report an incident for {type} on {code}",
+            "incident-description": "{type} detected by the IoT device on operation {code}.",
+            "incident-reported": "The incident was reported and the alert was marked as reviewed."
+        },
+        "offline": "No signal",
+        "offline-detail": "The device has not sent readings for more than {minutes} minutes.",
+        "devices": {
+            "title": "IoT devices",
+            "lead": "Set the safe temperature range and the impact threshold according to the beverage you transport.",
+            "empty": "There are no IoT devices installed in your vehicles.",
+            "serial": "Serial number",
+            "vehicle": "Vehicle",
+            "temperature-range": "Safe temperature",
+            "impact-threshold": "Impact threshold",
+            "status": "Status",
+            "edit": "Configure device {serial}",
+            "dialog-title": "Safe range of {serial}",
+            "safeTemperatureMin": "Minimum temperature",
+            "safeTemperatureMax": "Maximum temperature",
+            "impactThreshold": "Impact threshold",
+            "saved": "The safe range of {serial} was saved.",
+            "statuses": {
+                "active": "Active",
+                "offline": "Offline",
+                "retired": "Retired"
+            },
+            "errors": {
+                "range-required": "Complete the three values.",
+                "minimum-not-below-maximum": "The minimum temperature must be lower than the maximum.",
+                "threshold-not-positive": "The impact threshold must be greater than zero.",
+                "request-failed": "We could not save the changes. Try again."
+            }
+        }
     }
 }

@@ -364,5 +364,70 @@
             "inactive": "Inactivo"
         },
         "only-available": "Mostrar solo disponibles"
+    },
+    "monitoring": {
+        "title": "Monitoreo",
+        "lead": "Sigue la carga de las operaciones en curso con las lecturas de los dispositivos IoT.",
+        "refresh": "Actualizar",
+        "loading": "Cargando las lecturas…",
+        "empty": "No hay operaciones en curso en este momento.",
+        "no-device": "El vehículo de esta operación no tiene dispositivo IoT.",
+        "no-readings": "El dispositivo {serial} todavía no envía lecturas.",
+        "cargo-safe": "Carga en rango seguro",
+        "cargo-at-risk": "Carga en riesgo",
+        "temperature": "Temperatura",
+        "impact": "Golpe",
+        "location": "Ubicación",
+        "safe-range": "Rango seguro {min} °C – {max} °C",
+        "threshold": "Umbral {value} g",
+        "recorded-at": "Última lectura: {date}",
+        "simulate": "Simular lectura",
+        "reading-safe": "Nueva lectura de {code}: la carga está en rango seguro.",
+        "alert-raised": "Alerta en {code}",
+        "alert-types": {
+            "temperature_out_of_range": "Temperatura fuera del rango seguro",
+            "impact_detected": "Golpe detectado",
+            "device_offline": "Dispositivo sin señal"
+        },
+        "alerts": {
+            "title": "Alertas pendientes ({count})",
+            "empty": "No hay alertas pendientes.",
+            "acknowledge": "Marcar como revisada",
+            "acknowledge-for": "Marcar {type} de {code} como revisada",
+            "acknowledged": "La alerta quedó marcada como revisada.",
+            "report-incident": "Registrar incidencia",
+            "report-incident-for": "Registrar una incidencia por {type} en {code}",
+            "incident-description": "{type} detectado por el dispositivo IoT en la operación {code}.",
+            "incident-reported": "La incidencia quedó registrada y la alerta se marcó como revisada."
+        },
+        "offline": "Sin señal",
+        "offline-detail": "El dispositivo no envía lecturas desde hace más de {minutes} minutos.",
+        "devices": {
+            "title": "Dispositivos IoT",
+            "lead": "Configura el rango seguro de temperatura y el umbral de golpes según la bebida que transportas.",
+            "empty": "No hay dispositivos IoT instalados en tus vehículos.",
+            "serial": "Número de serie",
+            "vehicle": "Vehículo",
+            "temperature-range": "Temperatura segura",
+            "impact-threshold": "Umbral de golpes",
+            "status": "Estado",
+            "edit": "Configurar el dispositivo {serial}",
+            "dialog-title": "Rango seguro de {serial}",
+            "safeTemperatureMin": "Temperatura mínima",
+            "safeTemperatureMax": "Temperatura máxima",
+            "impactThreshold": "Umbral de golpes",
+            "saved": "El rango seguro de {serial} se guardó.",
+            "statuses": {
+                "active": "Activo",
+                "offline": "Sin conexión",
+                "retired": "Retirado"
+            },
+            "errors": {
+                "range-required": "Completa los tres valores.",
+                "minimum-not-below-maximum": "La temperatura mínima debe ser menor que la máxima.",
+                "threshold-not-positive": "El umbral de golpes debe ser mayor que cero.",
+                "request-failed": "No pudimos guardar los cambios. Inténtalo de nuevo."
+            }
+        }
     }
 }
