@@ -55,5 +55,177 @@
             "status": "inactive",
             "createdAt": "2026-09-03T08:30:00"
         }
+    ],
+    "delivery-points": [
+        {
+            "id": "d1e2f3a4-0001-4b5c-9d6e-7f8a9b0c1d2e",
+            "organizationId": "6f1c2a7e-3b4d-4c8e-9f10-2a3b4c5d6e7f",
+            "ownerUserId": "a1b2c3d4-0003-4a5b-8c9d-1e2f3a4b5c6d",
+            "businessName": "Bodega Carmen",
+            "address": "Jr. Huáscar 1245",
+            "district": "Jesús María",
+            "latitude": -12.0751,
+            "longitude": -77.0459
+        },
+        {
+            "id": "d1e2f3a4-0002-4b5c-9d6e-7f8a9b0c1d2e",
+            "organizationId": "6f1c2a7e-3b4d-4c8e-9f10-2a3b4c5d6e7f",
+            "ownerUserId": null,
+            "businessName": "Minimarket Don Lucho",
+            "address": "Av. Brasil 2890",
+            "district": "Pueblo Libre",
+            "latitude": -12.0789,
+            "longitude": -77.0612
+        },
+        {
+            "id": "d1e2f3a4-0003-4b5c-9d6e-7f8a9b0c1d2e",
+            "organizationId": "6f1c2a7e-3b4d-4c8e-9f10-2a3b4c5d6e7f",
+            "ownerUserId": null,
+            "businessName": "Market Santa Rosa",
+            "address": "Av. Salaverry 1520",
+            "district": "Jesús María",
+            "latitude": -12.0802,
+            "longitude": -77.0478
+        }
+    ],
+    "transport-operations": [
+        {
+            "id": "e5f6a7b8-0001-4c5d-8e9f-0a1b2c3d4e5f",
+            "organizationId": "6f1c2a7e-3b4d-4c8e-9f10-2a3b4c5d6e7f",
+            "code": "OP-004",
+            "description": "Ruta Lima Centro",
+            "scheduledDate": "2026-10-03",
+            "vehicleId": "b2c3d4e5-0001-4e5f-8a9b-0c1d2e3f4a5b",
+            "driverId": "c3d4e5f6-0001-4f5a-9b0c-1d2e3f4a5b6c",
+            "status": "in_progress",
+            "dispatchedAt": "2026-10-03T07:30:00",
+            "completedAt": null
+        },
+        {
+            "id": "e5f6a7b8-0002-4c5d-8e9f-0a1b2c3d4e5f",
+            "organizationId": "6f1c2a7e-3b4d-4c8e-9f10-2a3b4c5d6e7f",
+            "code": "OP-003",
+            "description": "Ruta Lima Centro",
+            "scheduledDate": "2026-09-30",
+            "vehicleId": "b2c3d4e5-0001-4e5f-8a9b-0c1d2e3f4a5b",
+            "driverId": "c3d4e5f6-0001-4f5a-9b0c-1d2e3f4a5b6c",
+            "status": "completed",
+            "dispatchedAt": "2026-09-30T07:15:00",
+            "completedAt": "2026-09-30T13:40:00"
+        },
+        {
+            "id": "e5f6a7b8-0003-4c5d-8e9f-0a1b2c3d4e5f",
+            "organizationId": "6f1c2a7e-3b4d-4c8e-9f10-2a3b4c5d6e7f",
+            "code": "OP-005",
+            "description": "Ruta Lima Centro",
+            "scheduledDate": "2026-10-06",
+            "vehicleId": "b2c3d4e5-0002-4e5f-8a9b-0c1d2e3f4a5b",
+            "driverId": "c3d4e5f6-0002-4f5a-9b0c-1d2e3f4a5b6c",
+            "status": "pending",
+            "dispatchedAt": null,
+            "completedAt": null
+        },
+        {
+            "id": "e5f6a7b8-0004-4c5d-8e9f-0a1b2c3d4e5f",
+            "organizationId": "6f1c2a7e-3b4d-4c8e-9f10-2a3b4c5d6e7f",
+            "code": "OP-001",
+            "description": "Ruta Lima Centro",
+            "scheduledDate": "2026-09-26",
+            "vehicleId": "b2c3d4e5-0001-4e5f-8a9b-0c1d2e3f4a5b",
+            "driverId": "c3d4e5f6-0001-4f5a-9b0c-1d2e3f4a5b6c",
+            "status": "completed",
+            "dispatchedAt": "2026-09-26T07:20:00",
+            "completedAt": "2026-09-26T12:55:00"
+        }
+    ],
+    "delivery-stops": [
+        {
+            "id": "f7a8b9c0-0001-4d5e-9f0a-1b2c3d4e5f6a",
+            "transportOperationId": "e5f6a7b8-0001-4c5d-8e9f-0a1b2c3d4e5f",
+            "deliveryPointId": "d1e2f3a4-0002-4b5c-9d6e-7f8a9b0c1d2e",
+            "sequenceNumber": 1,
+            "plannedQuantity": 30,
+            "deliveredQuantity": 30,
+            "status": "delivered",
+            "failureReason": null,
+            "confirmedAt": "2026-10-03T09:10:00"
+        },
+        {
+            "id": "f7a8b9c0-0002-4d5e-9f0a-1b2c3d4e5f6a",
+            "transportOperationId": "e5f6a7b8-0001-4c5d-8e9f-0a1b2c3d4e5f",
+            "deliveryPointId": "d1e2f3a4-0003-4b5c-9d6e-7f8a9b0c1d2e",
+            "sequenceNumber": 2,
+            "plannedQuantity": 25,
+            "deliveredQuantity": null,
+            "status": "pending",
+            "failureReason": null,
+            "confirmedAt": null
+        },
+        {
+            "id": "f7a8b9c0-0003-4d5e-9f0a-1b2c3d4e5f6a",
+            "transportOperationId": "e5f6a7b8-0001-4c5d-8e9f-0a1b2c3d4e5f",
+            "deliveryPointId": "d1e2f3a4-0001-4b5c-9d6e-7f8a9b0c1d2e",
+            "sequenceNumber": 3,
+            "plannedQuantity": 40,
+            "deliveredQuantity": null,
+            "status": "pending",
+            "failureReason": null,
+            "confirmedAt": null
+        },
+        {
+            "id": "f7a8b9c0-0004-4d5e-9f0a-1b2c3d4e5f6a",
+            "transportOperationId": "e5f6a7b8-0002-4c5d-8e9f-0a1b2c3d4e5f",
+            "deliveryPointId": "d1e2f3a4-0001-4b5c-9d6e-7f8a9b0c1d2e",
+            "sequenceNumber": 1,
+            "plannedQuantity": 40,
+            "deliveredQuantity": 36,
+            "status": "partially_delivered",
+            "failureReason": "Cuatro cajas no llegaron en el camión",
+            "confirmedAt": "2026-09-30T09:05:00"
+        },
+        {
+            "id": "f7a8b9c0-0005-4d5e-9f0a-1b2c3d4e5f6a",
+            "transportOperationId": "e5f6a7b8-0002-4c5d-8e9f-0a1b2c3d4e5f",
+            "deliveryPointId": "d1e2f3a4-0002-4b5c-9d6e-7f8a9b0c1d2e",
+            "sequenceNumber": 2,
+            "plannedQuantity": 20,
+            "deliveredQuantity": 20,
+            "status": "delivered",
+            "failureReason": null,
+            "confirmedAt": "2026-09-30T10:20:00"
+        },
+        {
+            "id": "f7a8b9c0-0006-4d5e-9f0a-1b2c3d4e5f6a",
+            "transportOperationId": "e5f6a7b8-0003-4c5d-8e9f-0a1b2c3d4e5f",
+            "deliveryPointId": "d1e2f3a4-0002-4b5c-9d6e-7f8a9b0c1d2e",
+            "sequenceNumber": 1,
+            "plannedQuantity": 15,
+            "deliveredQuantity": null,
+            "status": "pending",
+            "failureReason": null,
+            "confirmedAt": null
+        },
+        {
+            "id": "f7a8b9c0-0007-4d5e-9f0a-1b2c3d4e5f6a",
+            "transportOperationId": "e5f6a7b8-0003-4c5d-8e9f-0a1b2c3d4e5f",
+            "deliveryPointId": "d1e2f3a4-0001-4b5c-9d6e-7f8a9b0c1d2e",
+            "sequenceNumber": 2,
+            "plannedQuantity": 35,
+            "deliveredQuantity": null,
+            "status": "pending",
+            "failureReason": null,
+            "confirmedAt": null
+        },
+        {
+            "id": "f7a8b9c0-0008-4d5e-9f0a-1b2c3d4e5f6a",
+            "transportOperationId": "e5f6a7b8-0004-4c5d-8e9f-0a1b2c3d4e5f",
+            "deliveryPointId": "d1e2f3a4-0001-4b5c-9d6e-7f8a9b0c1d2e",
+            "sequenceNumber": 1,
+            "plannedQuantity": 30,
+            "deliveredQuantity": 30,
+            "status": "delivered",
+            "failureReason": null,
+            "confirmedAt": "2026-09-26T08:45:00"
+        }
     ]
 }
