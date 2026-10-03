@@ -55,5 +55,40 @@
             "status": "inactive",
             "createdAt": "2026-09-03T08:30:00"
         }
-    ]
+    ],
+    "incidents": [
+        {
+            "id": "a9b0c1d2-0001-4d5e-8f9a-5b6c7d8e9f0a",
+            "code": "INC-0001",
+            "transportOperationId": "e5f6a7b8-0002-4c5d-8e9f-0a1b2c3d4e5f",
+            "deliveryStopId": null,
+            "reportedBy": "a1b2c3d4-0002-4a5b-8c9d-1e2f3a4b5c6d",
+            "source": "fleet_supervisor",
+            "type": "broken_bottles",
+            "severity": "high",
+            "description": "Se rompieron 6 botellas de vidrio al frenar en la Av. Brasil.",
+            "affectedQuantity": 6,
+            "status": "resolved",
+            "resolution": "Se repuso el producto en la siguiente ruta.",
+            "reportedAt": "2026-09-30T10:05:00",
+            "resolvedAt": "2026-09-30T16:00:00"
+        },
+        {
+            "id": "a9b0c1d2-0002-4d5e-8f9a-5b6c7d8e9f0a",
+            "code": "INC-0002",
+            "transportOperationId": "e5f6a7b8-0001-4c5d-8e9f-0a1b2c3d4e5f",
+            "deliveryStopId": null,
+            "reportedBy": "a1b2c3d4-0002-4a5b-8c9d-1e2f3a4b5c6d",
+            "source": "fleet_supervisor",
+            "type": "delay",
+            "severity": "medium",
+            "description": "Tráfico intenso en la Av. Salaverry retrasa la ruta 40 minutos.",
+            "affectedQuantity": 0,
+            "status": "under_review",
+            "resolution": null,
+            "reportedAt": "2026-10-03T09:40:00",
+            "resolvedAt": null
+        }
+    ],
+    "evidences": []
 }

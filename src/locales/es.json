@@ -130,5 +130,96 @@
             "required": "Este campo es obligatorio.",
             "failure": "No pudimos guardar los cambios. Inténtalo de nuevo."
         }
+    },
+    "incidents": {
+        "list": {
+            "title": "Incidencias",
+            "lead": "Registra los problemas de cada operación y síguelos hasta su resolución.",
+            "new": "Registrar incidencia",
+            "empty": "Todavía no hay incidencias.",
+            "code": "Código",
+            "operation": "Operación",
+            "source": "Reportada por",
+            "reported-at": "Fecha de reporte",
+            "status": "Estado",
+            "all-statuses": "Todos los estados",
+            "all-types": "Todos los tipos",
+            "filter-status": "Filtrar por estado",
+            "filter-type": "Filtrar por tipo"
+        },
+        "form": {
+            "title": "Registrar incidencia",
+            "submit": "Registrar incidencia",
+            "select": "Selecciona una opción",
+            "operation": "Operación",
+            "type": "Tipo",
+            "severity": "Severidad",
+            "affected-quantity": "Cajas afectadas (opcional)",
+            "description": "Qué ocurrió",
+            "success": "La incidencia quedó registrada."
+        },
+        "advance": {
+            "title": "Actualizar incidencia {code}",
+            "resolution": "Resolución",
+            "resolution-required": "Describe cómo se resolvió la incidencia.",
+            "success": "{code} ahora está {status}.",
+            "to": {
+                "under_review": "Iniciar revisión",
+                "resolved": "Resolver",
+                "closed": "Cerrar"
+            }
+        },
+        "types": {
+            "broken_bottles": "Botellas rotas",
+            "damaged_product": "Producto dañado",
+            "shortage": "Faltante",
+            "delay": "Retraso"
+        },
+        "severities": {
+            "low": "Baja",
+            "medium": "Media",
+            "high": "Alta",
+            "critical": "Crítica"
+        },
+        "statuses": {
+            "reported": "Reportada",
+            "under_review": "En revisión",
+            "resolved": "Resuelta",
+            "closed": "Cerrada"
+        },
+        "sources": {
+            "fleet_supervisor": "Supervisor de flota",
+            "delivery_point": "Bodega",
+            "iot_alert": "Alerta IoT"
+        },
+        "dashboard": {
+            "title": "Dashboard",
+            "lead": "Indicadores de las operaciones de transporte de este mes.",
+            "loading": "Cargando los indicadores…",
+            "no-operations": "Todavía no hay operaciones registradas este mes.",
+            "operations": "Operaciones del mes",
+            "completed-deliveries": "Entregas completadas",
+            "open-incidents": "Incidencias abiertas",
+            "shrinkage": "Merma acumulada",
+            "boxes": "{quantity} cajas",
+            "in-progress": "Operaciones en curso",
+            "none-in-progress": "No hay operaciones en curso.",
+            "route": "Ruta",
+            "deliveries": "Entregas"
+        },
+        "evidence": {
+            "attach": "Evidencia",
+            "attach-aria": "Adjuntar evidencia a la incidencia {code}",
+            "title": "Evidencia de la incidencia {code}",
+            "submit": "Adjuntar evidencia",
+            "url": "URL de la foto",
+            "url-placeholder": "https://ejemplo.com/foto.jpg",
+            "url-invalid": "Ingresa una URL HTTP o HTTPS válida.",
+            "existing": "Evidencias adjuntas",
+            "loading": "Cargando evidencias…",
+            "empty": "Todavía no hay evidencias adjuntas.",
+            "open": "Abrir foto",
+            "success": "La evidencia quedó adjunta."
+        }
     }
 }

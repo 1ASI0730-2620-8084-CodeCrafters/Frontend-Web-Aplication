@@ -130,5 +130,96 @@
             "required": "This field is required.",
             "failure": "We could not save the changes. Try again."
         }
+    },
+    "incidents": {
+        "list": {
+            "title": "Incidents",
+            "lead": "Record the problems of each operation and follow them until they are resolved.",
+            "new": "Report incident",
+            "empty": "There are no incidents yet.",
+            "code": "Code",
+            "operation": "Operation",
+            "source": "Reported by",
+            "reported-at": "Reported at",
+            "status": "Status",
+            "all-statuses": "All statuses",
+            "all-types": "All types",
+            "filter-status": "Filter by status",
+            "filter-type": "Filter by type"
+        },
+        "form": {
+            "title": "Report incident",
+            "submit": "Report incident",
+            "select": "Select an option",
+            "operation": "Operation",
+            "type": "Type",
+            "severity": "Severity",
+            "affected-quantity": "Affected boxes (optional)",
+            "description": "What happened",
+            "success": "The incident was reported."
+        },
+        "advance": {
+            "title": "Update incident {code}",
+            "resolution": "Resolution",
+            "resolution-required": "Describe how the incident was resolved.",
+            "success": "{code} is now {status}.",
+            "to": {
+                "under_review": "Start review",
+                "resolved": "Resolve",
+                "closed": "Close"
+            }
+        },
+        "types": {
+            "broken_bottles": "Broken bottles",
+            "damaged_product": "Damaged product",
+            "shortage": "Shortage",
+            "delay": "Delay"
+        },
+        "severities": {
+            "low": "Low",
+            "medium": "Medium",
+            "high": "High",
+            "critical": "Critical"
+        },
+        "statuses": {
+            "reported": "Reported",
+            "under_review": "Under review",
+            "resolved": "Resolved",
+            "closed": "Closed"
+        },
+        "sources": {
+            "fleet_supervisor": "Fleet supervisor",
+            "delivery_point": "Delivery point",
+            "iot_alert": "IoT alert"
+        },
+        "dashboard": {
+            "title": "Dashboard",
+            "lead": "Indicators of the transport operations of this month.",
+            "loading": "Loading the indicators…",
+            "no-operations": "There are no operations registered this month yet.",
+            "operations": "Operations this month",
+            "completed-deliveries": "Completed deliveries",
+            "open-incidents": "Open incidents",
+            "shrinkage": "Accumulated shrinkage",
+            "boxes": "{quantity} boxes",
+            "in-progress": "Operations in progress",
+            "none-in-progress": "There are no operations in progress.",
+            "route": "Route",
+            "deliveries": "Deliveries"
+        },
+        "evidence": {
+            "attach": "Evidence",
+            "attach-aria": "Attach evidence to incident {code}",
+            "title": "Evidence for incident {code}",
+            "submit": "Attach evidence",
+            "url": "Photo URL",
+            "url-placeholder": "https://example.com/photo.jpg",
+            "url-invalid": "Enter a valid HTTP or HTTPS URL.",
+            "existing": "Attached evidence",
+            "loading": "Loading evidence…",
+            "empty": "No evidence attached yet.",
+            "open": "Open photo",
+            "success": "The evidence was attached."
+        }
     }
 }
