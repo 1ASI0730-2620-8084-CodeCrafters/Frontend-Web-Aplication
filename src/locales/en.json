@@ -121,6 +121,181 @@
             "inactive": "Inactive"
         }
     },
+    "operations": {
+        "tracking": {
+            "title": "My orders",
+            "lead": "Follow your orders from the distributor and report any problem when you receive them.",
+            "loading": "Loading your orders…",
+            "load-error": "We could not load your orders.",
+            "retry": "Try again",
+            "active-title": "Orders on the way",
+            "active-empty": "You have no orders on the way.",
+            "registered-title": "Received orders",
+            "registered-empty": "You have no received orders yet.",
+            "operation": "Operation {code}",
+            "ordered": "Ordered",
+            "received": "Received",
+            "delivered-on": "Delivered on",
+            "missing": "Missing",
+            "reason": "Reason reported by the distributor",
+            "progress": "Progress",
+            "boxes": "{quantity} boxes",
+            "boxes-of": "{quantity} of {planned} boxes",
+            "stops-before": "Your delivery is next | 1 stop before yours | {n} stops before yours",
+            "report": "Report a problem",
+            "reported": "Problem reported",
+            "statuses": {
+                "on_route": "On the way",
+                "scheduled": "Scheduled",
+                "delivered": "Delivered",
+                "partially_delivered": "Partially delivered",
+                "not_delivered": "Not delivered"
+            },
+            "problem": {
+                "title": "Report a reception problem",
+                "type": "Problem type",
+                "type-placeholder": "Select the problem",
+                "types": {
+                    "shortage": "Missing boxes",
+                    "damaged_product": "Damaged product",
+                    "broken_bottles": "Broken bottles"
+                },
+                "quantity": "Affected boxes",
+                "description": "Details (optional)",
+                "submit": "Send report",
+                "cancel": "Cancel",
+                "type-required": "Select the type of problem.",
+                "quantity-required": "Enter at least one affected box.",
+                "success": "Your report was sent. The distributor will review it.",
+                "failure": "We could not send your report. Try again."
+            }
+        },
+        "list": {
+            "title": "Operations",
+            "lead": "Plan the transport operations of the day and follow their deliveries.",
+            "new": "New operation",
+            "filter": "Filter by status",
+            "empty": "There are no operations with this status.",
+            "code": "Code",
+            "route": "Route",
+            "date": "Date",
+            "vehicle": "Vehicle",
+            "driver": "Driver",
+            "deliveries": "Deliveries",
+            "status": "Status",
+            "unassigned": "Not assigned"
+        },
+        "create": {
+            "title": "New transport operation",
+            "submit": "Create operation",
+            "description": "Route",
+            "description-placeholder": "Ruta Lima Norte",
+            "scheduled-date": "Scheduled date",
+            "date-in-past": "Choose today or a later date."
+        },
+        "detail": {
+            "title": "Operation detail",
+            "breadcrumb": "Breadcrumb",
+            "loading": "Loading the operation…",
+            "not-found": "We could not find this operation.",
+            "start": "Start operation",
+            "complete": "Complete operation",
+            "start-hint": "Assign a vehicle, a driver and at least one delivery point to start the operation.",
+            "started": "The operation started.",
+            "completed": "The operation was completed. The vehicle and the driver are available again.",
+            "resources": "Resources",
+            "vehicle": "Vehicle",
+            "driver": "Driver",
+            "assign-vehicle": "Assign a vehicle",
+            "change-vehicle": "Change the vehicle",
+            "assign-driver": "Assign a driver",
+            "change-driver": "Change the driver",
+            "no-available-vehicles": "There are no available vehicles.",
+            "no-available-drivers": "There are no available drivers.",
+            "vehicle-assigned": "The vehicle was assigned.",
+            "driver-assigned": "The driver was assigned.",
+            "progress": "Progress",
+            "progress-caption": "{registered} of {total} deliveries with a result"
+        },
+        "route": {
+            "title": "Route",
+            "add": "Add delivery point",
+            "empty": "This operation has no delivery points yet.",
+            "delivery-point": "Delivery point",
+            "quantity": "Boxes",
+            "status": "Status",
+            "reason": "Reason",
+            "record": "Record result",
+            "record-for": "Record the result of {name}",
+            "boxes": "{quantity} boxes",
+            "stop-added": "The delivery point was added to the route.",
+            "result-recorded": "The delivery result was recorded.",
+            "map": "View on map",
+            "map-for": "View {name} on the map",
+            "order": "Order",
+            "move-up": "Move {name} up",
+            "move-down": "Move {name} down"
+        },
+        "stop-form": {
+            "title": "Add delivery point",
+            "delivery-point": "Delivery point",
+            "delivery-point-placeholder": "Select the establishment",
+            "no-points": "All the delivery points are already in the route.",
+            "planned-quantity": "Planned boxes",
+            "quantity-invalid": "Enter at least one box."
+        },
+        "result-form": {
+            "title": "Record delivery result",
+            "result": "Result",
+            "delivered-quantity": "Delivered boxes",
+            "reason": "Reason reported by the driver",
+            "partial-quantity-invalid": "Enter a quantity between 1 and the planned boxes minus one.",
+            "reason-required": "Enter the reason."
+        },
+        "statuses": {
+            "all": "All",
+            "pending": "Pending",
+            "dispatched": "Dispatched",
+            "in_progress": "In progress",
+            "completed": "Completed",
+            "cancelled": "Cancelled"
+        },
+        "delivery-statuses": {
+            "pending": "Pending",
+            "delivered": "Delivered",
+            "partially_delivered": "Partially delivered",
+            "not_delivered": "Not delivered"
+        },
+        "errors": {
+            "request-failed": "We could not save the changes. Try again.",
+            "operation-not-pending": "Only pending operations can be changed.",
+            "resource-not-available": "That resource is no longer available. Choose another one.",
+            "operation-cannot-start": "Assign a vehicle, a driver and at least one delivery point first.",
+            "delivery-not-recordable": "This delivery can no longer be recorded.",
+            "operation-has-pending-deliveries": "The operation still has deliveries without a result.",
+            "operation-already-started": "The operation already started, so it can no longer be cancelled.",
+            "cancellation-reason-required": "Enter the reason for the cancellation."
+        },
+        "cancel": {
+            "open": "Cancel operation",
+            "title": "Cancel operation {code}",
+            "submit": "Cancel operation",
+            "warning": "The vehicle and the driver will be available again. This action cannot be undone.",
+            "reason": "Reason",
+            "reason-required": "Enter the reason for the cancellation.",
+            "success": "The operation was cancelled.",
+            "reason-label": "Cancelled: {reason}"
+        },
+        "history": {
+            "title": "History",
+            "lead": "Review the completed operations, from the most recent to the oldest.",
+            "range": "Date range",
+            "empty": "There are no completed operations in this range.",
+            "completed-at": "Completed at",
+            "results": "Results",
+            "results-summary": "{delivered} delivered · {partial} partial · {failed} not delivered"
+        }
+    },
     "shared": {
         "actions": "Actions",
         "load-error": "We could not load the information. Try again in a few minutes.",
