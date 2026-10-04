@@ -1,0 +1,524 @@
+{
+    "app": {
+        "name": "BottleTrack",
+        "tagline": "Visibilidad de la flota, entrega por entrega."
+    },
+    "shell": {
+        "skip": "Saltar al contenido principal",
+        "primary-navigation": "Principal",
+        "open-navigation": "Abrir navegación",
+        "language": "Idioma"
+    },
+    "navigation": {
+        "home": "Inicio",
+        "analytics": "Dashboard",
+        "operations": "Operaciones",
+        "monitoring": "Monitoreo",
+        "incidents": "Incidencias",
+        "history": "Historial",
+        "vehicles": "Vehículos",
+        "drivers": "Conductores",
+        "users": "Usuarios",
+        "company": "Empresa",
+        "tracking": "Mis pedidos",
+        "profile": "Mi perfil",
+        "devices": "Dispositivos IoT"
+    },
+    "home": {
+        "title": "Bienvenido a BottleTrack",
+        "lead": "Elige una sección del menú para empezar a trabajar."
+    },
+    "not-found": {
+        "title": "Página no encontrada",
+        "content": "La ruta {path} no está disponible.",
+        "go-home": "Ir al inicio"
+    },
+    "iam": {
+        "sign-in": {
+            "title": "Iniciar sesión",
+            "lead": "Accede a tu cuenta de BottleTrack.",
+            "showcase": "Sigue cada operación de transporte, monitorea tu flota y resuelve incidencias en tiempo real.",
+            "email": "Correo electrónico",
+            "email-placeholder": "nombre{'@'}empresa.com",
+            "password": "Contraseña",
+            "submit": "Iniciar sesión",
+            "terms": "Términos de servicio",
+            "email-required": "Ingresa tu correo electrónico.",
+            "email-invalid": "Ingresa un correo válido, como nombre{'@'}empresa.com.",
+            "password-required": "Ingresa tu contraseña.",
+            "errors": {
+                "invalid-credentials": "El correo o la contraseña son incorrectos.",
+                "inactive-user": "Tu cuenta está inactiva. Comunícate con el administrador de tu empresa.",
+                "service-unavailable": "No pudimos conectar con BottleTrack. Inténtalo de nuevo en unos minutos."
+            }
+        },
+        "sign-out": "Cerrar sesión",
+        "roles": {
+            "administrator": "Administrador",
+            "fleet_supervisor": "Supervisor de flota",
+            "delivery_point_owner": "Responsable de bodega"
+        },
+        "profile": {
+            "title": "Mi perfil",
+            "first-name": "Nombres",
+            "last-name": "Apellidos",
+            "email": "Correo electrónico",
+            "role": "Rol",
+            "company": "Empresa",
+            "link": "Ver mi perfil"
+        },
+        "company": {
+            "title": "Empresa",
+            "lead": "Mantén actualizada la información de tu empresa.",
+            "business-name": "Razón social",
+            "tax-id": "RUC",
+            "email": "Correo de la empresa",
+            "phone": "Teléfono",
+            "address": "Dirección",
+            "save": "Guardar cambios",
+            "business-name-required": "Ingresa la razón social.",
+            "success": "La información de la empresa se guardó.",
+            "failure": "No pudimos guardar la información de la empresa. Inténtalo de nuevo.",
+            "load-error": "No pudimos cargar la información de la empresa."
+        },
+        "users": {
+            "title": "Usuarios",
+            "lead": "Registra a las personas de tu empresa y elige qué puede hacer cada una.",
+            "new": "Nuevo usuario",
+            "name": "Nombre",
+            "email": "Correo electrónico",
+            "role": "Rol",
+            "status": "Estado",
+            "actions": "Acciones",
+            "edit": "Editar a {name}",
+            "role-of": "Rol de {name}",
+            "you": "Tú",
+            "empty": "Todavía no hay usuarios.",
+            "load-error": "No pudimos cargar los usuarios.",
+            "role-success": "{name} ahora es {role}.",
+            "failure": "No pudimos guardar los cambios. Inténtalo de nuevo.",
+            "created": "{name} quedó registrado.",
+            "updated": "Los datos de {name} se guardaron."
+        },
+        "user-form": {
+            "new-title": "Nuevo usuario",
+            "edit-title": "Editar usuario",
+            "first-name": "Nombres",
+            "last-name": "Apellidos",
+            "email": "Correo electrónico",
+            "role": "Rol",
+            "password": "Contraseña inicial",
+            "password-hint": "Al menos 8 caracteres. Compártela con el usuario para que pueda iniciar sesión.",
+            "save": "Guardar",
+            "cancel": "Cancelar",
+            "required": "Este campo es obligatorio.",
+            "email-invalid": "Ingresa un correo válido, como nombre{'@'}empresa.com.",
+            "password-short": "Usa al menos 8 caracteres.",
+            "email-taken": "Otro usuario ya usa este correo."
+        },
+        "statuses": {
+            "active": "Activo",
+            "inactive": "Inactivo"
+        }
+    },
+    "operations": {
+        "tracking": {
+            "title": "Mis pedidos",
+            "lead": "Sigue tus pedidos de la distribuidora y reporta cualquier problema al recibirlos.",
+            "loading": "Cargando tus pedidos…",
+            "load-error": "No pudimos cargar tus pedidos.",
+            "retry": "Reintentar",
+            "active-title": "Pedidos en camino",
+            "active-empty": "No tienes pedidos en camino.",
+            "registered-title": "Pedidos recibidos",
+            "registered-empty": "Todavía no tienes pedidos recibidos.",
+            "operation": "Operación {code}",
+            "ordered": "Pedido",
+            "received": "Recibido",
+            "delivered-on": "Entregado el",
+            "missing": "Faltante",
+            "reason": "Motivo informado por la distribuidora",
+            "progress": "Avance",
+            "boxes": "{quantity} cajas",
+            "boxes-of": "{quantity} de {planned} cajas",
+            "stops-before": "Tu entrega es la siguiente | Falta 1 parada antes de la tuya | Faltan {n} paradas antes de la tuya",
+            "report": "Reportar un problema",
+            "reported": "Problema reportado",
+            "statuses": {
+                "on_route": "En camino",
+                "scheduled": "Programado",
+                "delivered": "Entregado",
+                "partially_delivered": "Entrega parcial",
+                "not_delivered": "No entregado"
+            },
+            "problem": {
+                "title": "Reportar un problema de recepción",
+                "type": "Tipo de problema",
+                "type-placeholder": "Selecciona el problema",
+                "types": {
+                    "shortage": "Cajas faltantes",
+                    "damaged_product": "Producto dañado",
+                    "broken_bottles": "Botellas rotas"
+                },
+                "quantity": "Cajas afectadas",
+                "description": "Detalle (opcional)",
+                "submit": "Enviar reporte",
+                "cancel": "Cancelar",
+                "type-required": "Selecciona el tipo de problema.",
+                "quantity-required": "Ingresa al menos una caja afectada.",
+                "success": "Tu reporte fue enviado. La distribuidora lo revisará.",
+                "failure": "No pudimos enviar tu reporte. Inténtalo de nuevo."
+            }
+        },
+        "list": {
+            "title": "Operaciones",
+            "lead": "Planifica las operaciones de transporte del día y sigue sus entregas.",
+            "new": "Nueva operación",
+            "filter": "Filtrar por estado",
+            "empty": "No hay operaciones con este estado.",
+            "code": "Código",
+            "route": "Ruta",
+            "date": "Fecha",
+            "vehicle": "Vehículo",
+            "driver": "Conductor",
+            "deliveries": "Entregas",
+            "status": "Estado",
+            "unassigned": "Sin asignar"
+        },
+        "create": {
+            "title": "Nueva operación de transporte",
+            "submit": "Crear operación",
+            "description": "Ruta",
+            "description-placeholder": "Ruta Lima Norte",
+            "scheduled-date": "Fecha programada",
+            "date-in-past": "Elige hoy o una fecha posterior."
+        },
+        "detail": {
+            "title": "Detalle de operación",
+            "breadcrumb": "Ruta de navegación",
+            "loading": "Cargando la operación…",
+            "not-found": "No encontramos esta operación.",
+            "start": "Iniciar operación",
+            "complete": "Finalizar operación",
+            "start-hint": "Asigna un vehículo, un conductor y al menos un punto de entrega para iniciar la operación.",
+            "started": "La operación se inició.",
+            "completed": "La operación se finalizó. El vehículo y el conductor vuelven a estar disponibles.",
+            "resources": "Recursos",
+            "vehicle": "Vehículo",
+            "driver": "Conductor",
+            "assign-vehicle": "Asignar un vehículo",
+            "change-vehicle": "Cambiar el vehículo",
+            "assign-driver": "Asignar un conductor",
+            "change-driver": "Cambiar el conductor",
+            "no-available-vehicles": "No hay vehículos disponibles.",
+            "no-available-drivers": "No hay conductores disponibles.",
+            "vehicle-assigned": "El vehículo quedó asignado.",
+            "driver-assigned": "El conductor quedó asignado.",
+            "progress": "Avance",
+            "progress-caption": "{registered} de {total} entregas con resultado"
+        },
+        "route": {
+            "title": "Ruta",
+            "add": "Agregar punto de entrega",
+            "empty": "Esta operación todavía no tiene puntos de entrega.",
+            "delivery-point": "Punto de entrega",
+            "quantity": "Cajas",
+            "status": "Estado",
+            "reason": "Motivo",
+            "record": "Registrar resultado",
+            "record-for": "Registrar el resultado de {name}",
+            "boxes": "{quantity} cajas",
+            "stop-added": "El punto de entrega se agregó a la ruta.",
+            "result-recorded": "El resultado de la entrega quedó registrado.",
+            "map": "Ver en el mapa",
+            "map-for": "Ver {name} en el mapa",
+            "order": "Orden",
+            "move-up": "Subir {name}",
+            "move-down": "Bajar {name}"
+        },
+        "stop-form": {
+            "title": "Agregar punto de entrega",
+            "delivery-point": "Punto de entrega",
+            "delivery-point-placeholder": "Selecciona el establecimiento",
+            "no-points": "Todos los puntos de entrega ya están en la ruta.",
+            "planned-quantity": "Cajas programadas",
+            "quantity-invalid": "Ingresa al menos una caja."
+        },
+        "result-form": {
+            "title": "Registrar resultado de la entrega",
+            "result": "Resultado",
+            "delivered-quantity": "Cajas entregadas",
+            "reason": "Motivo informado por el conductor",
+            "partial-quantity-invalid": "Ingresa una cantidad entre 1 y las cajas programadas menos una.",
+            "reason-required": "Ingresa el motivo."
+        },
+        "statuses": {
+            "all": "Todas",
+            "pending": "Pendiente",
+            "dispatched": "Despachada",
+            "in_progress": "En curso",
+            "completed": "Completada",
+            "cancelled": "Cancelada"
+        },
+        "delivery-statuses": {
+            "pending": "Pendiente",
+            "delivered": "Entregada",
+            "partially_delivered": "Entrega parcial",
+            "not_delivered": "No entregada"
+        },
+        "errors": {
+            "request-failed": "No pudimos guardar los cambios. Inténtalo de nuevo.",
+            "operation-not-pending": "Solo se pueden modificar operaciones pendientes.",
+            "resource-not-available": "Ese recurso ya no está disponible. Elige otro.",
+            "operation-cannot-start": "Primero asigna un vehículo, un conductor y al menos un punto de entrega.",
+            "delivery-not-recordable": "Esta entrega ya no se puede registrar.",
+            "operation-has-pending-deliveries": "La operación todavía tiene entregas sin resultado.",
+            "operation-already-started": "La operación ya se inició, por eso ya no se puede cancelar.",
+            "cancellation-reason-required": "Ingresa el motivo de la cancelación."
+        },
+        "cancel": {
+            "open": "Cancelar operación",
+            "title": "Cancelar la operación {code}",
+            "submit": "Cancelar operación",
+            "warning": "El vehículo y el conductor volverán a estar disponibles. Esta acción no se puede deshacer.",
+            "reason": "Motivo",
+            "reason-required": "Ingresa el motivo de la cancelación.",
+            "success": "La operación fue cancelada.",
+            "reason-label": "Cancelada: {reason}"
+        },
+        "history": {
+            "title": "Historial",
+            "lead": "Revisa las operaciones completadas, de la más reciente a la más antigua.",
+            "range": "Rango de fechas",
+            "empty": "No hay operaciones completadas en este rango.",
+            "completed-at": "Completada el",
+            "results": "Resultados",
+            "results-summary": "{delivered} entregadas · {partial} parciales · {failed} no entregadas"
+        }
+    },
+    "shared": {
+        "actions": "Acciones",
+        "load-error": "No pudimos cargar la información. Inténtalo de nuevo en unos minutos.",
+        "form": {
+            "save": "Guardar",
+            "cancel": "Cancelar",
+            "required": "Este campo es obligatorio.",
+            "failure": "No pudimos guardar los cambios. Inténtalo de nuevo."
+        }
+    },
+    "fleet": {
+        "vehicles": {
+            "title": "Vehículos",
+            "lead": "Registra los vehículos de tu flota y mantén sus datos actualizados.",
+            "new": "Nuevo vehículo",
+            "vehicle": "Vehículo",
+            "edit": "Editar vehículo {plateNumber}",
+            "empty": "Todavía no hay vehículos.",
+            "saved": "El vehículo {plateNumber} se guardó.",
+            "none-available": "Todos los vehículos están asignados o en mantenimiento."
+        },
+        "vehicle-form": {
+            "new-title": "Nuevo vehículo",
+            "edit-title": "Editar vehículo",
+            "plateNumber": "Placa",
+            "brand": "Marca",
+            "model": "Modelo",
+            "capacityInBoxes": "Capacidad (cajas)",
+            "status": "Estado",
+            "plate-number-invalid": "Usa el formato ABC-123.",
+            "plate-number-taken": "Otro vehículo ya usa esta placa.",
+            "capacity-invalid": "Ingresa una capacidad mayor que cero."
+        },
+        "vehicle-statuses": {
+            "available": "Disponible",
+            "assigned": "Asignado",
+            "in_maintenance": "En mantenimiento"
+        },
+        "drivers": {
+            "title": "Conductores",
+            "lead": "Registra a los conductores de tu empresa y mantén sus datos actualizados.",
+            "new": "Nuevo conductor",
+            "name": "Nombre",
+            "edit": "Editar a {name}",
+            "empty": "Todavía no hay conductores.",
+            "saved": "Los datos de {name} se guardaron.",
+            "none-available": "Todos los conductores están asignados o inactivos."
+        },
+        "driver-form": {
+            "new-title": "Nuevo conductor",
+            "edit-title": "Editar conductor",
+            "firstName": "Nombres",
+            "lastName": "Apellidos",
+            "documentNumber": "DNI",
+            "licenseNumber": "Licencia de conducir",
+            "phone": "Teléfono (opcional)",
+            "status": "Estado",
+            "document-number-invalid": "El DNI tiene 8 dígitos.",
+            "license-number-invalid": "Usa una letra seguida de 8 dígitos, como Q45678912.",
+            "documentNumber-taken": "Otro conductor ya usa este DNI.",
+            "licenseNumber-taken": "Otro conductor ya usa esta licencia."
+        },
+        "driver-statuses": {
+            "available": "Disponible",
+            "assigned": "Asignado",
+            "inactive": "Inactivo"
+        },
+        "only-available": "Mostrar solo disponibles"
+    },
+    "monitoring": {
+        "title": "Monitoreo",
+        "lead": "Sigue la carga de las operaciones en curso con las lecturas de los dispositivos IoT.",
+        "refresh": "Actualizar",
+        "loading": "Cargando las lecturas…",
+        "empty": "No hay operaciones en curso en este momento.",
+        "no-device": "El vehículo de esta operación no tiene dispositivo IoT.",
+        "no-readings": "El dispositivo {serial} todavía no envía lecturas.",
+        "cargo-safe": "Carga en rango seguro",
+        "cargo-at-risk": "Carga en riesgo",
+        "temperature": "Temperatura",
+        "impact": "Golpe",
+        "location": "Ubicación",
+        "safe-range": "Rango seguro {min} °C – {max} °C",
+        "threshold": "Umbral {value} g",
+        "recorded-at": "Última lectura: {date}",
+        "simulate": "Simular lectura",
+        "reading-safe": "Nueva lectura de {code}: la carga está en rango seguro.",
+        "alert-raised": "Alerta en {code}",
+        "alert-types": {
+            "temperature_out_of_range": "Temperatura fuera del rango seguro",
+            "impact_detected": "Golpe detectado",
+            "device_offline": "Dispositivo sin señal"
+        },
+        "alerts": {
+            "title": "Alertas pendientes ({count})",
+            "empty": "No hay alertas pendientes.",
+            "acknowledge": "Marcar como revisada",
+            "acknowledge-for": "Marcar {type} de {code} como revisada",
+            "acknowledged": "La alerta quedó marcada como revisada.",
+            "report-incident": "Registrar incidencia",
+            "report-incident-for": "Registrar una incidencia por {type} en {code}",
+            "incident-description": "{type} detectado por el dispositivo IoT en la operación {code}.",
+            "incident-reported": "La incidencia quedó registrada y la alerta se marcó como revisada."
+        },
+        "offline": "Sin señal",
+        "offline-detail": "El dispositivo no envía lecturas desde hace más de {minutes} minutos.",
+        "devices": {
+            "title": "Dispositivos IoT",
+            "lead": "Configura el rango seguro de temperatura y el umbral de golpes según la bebida que transportas.",
+            "empty": "No hay dispositivos IoT instalados en tus vehículos.",
+            "serial": "Número de serie",
+            "vehicle": "Vehículo",
+            "temperature-range": "Temperatura segura",
+            "impact-threshold": "Umbral de golpes",
+            "status": "Estado",
+            "edit": "Configurar el dispositivo {serial}",
+            "dialog-title": "Rango seguro de {serial}",
+            "safeTemperatureMin": "Temperatura mínima",
+            "safeTemperatureMax": "Temperatura máxima",
+            "impactThreshold": "Umbral de golpes",
+            "saved": "El rango seguro de {serial} se guardó.",
+            "statuses": {
+                "active": "Activo",
+                "offline": "Sin conexión",
+                "retired": "Retirado"
+            },
+            "errors": {
+                "range-required": "Completa los tres valores.",
+                "minimum-not-below-maximum": "La temperatura mínima debe ser menor que la máxima.",
+                "threshold-not-positive": "El umbral de golpes debe ser mayor que cero.",
+                "request-failed": "No pudimos guardar los cambios. Inténtalo de nuevo."
+            }
+        }
+    },
+    "incidents": {
+        "list": {
+            "title": "Incidencias",
+            "lead": "Registra los problemas de cada operación y síguelos hasta su resolución.",
+            "new": "Registrar incidencia",
+            "empty": "Todavía no hay incidencias.",
+            "code": "Código",
+            "operation": "Operación",
+            "source": "Reportada por",
+            "reported-at": "Fecha de reporte",
+            "status": "Estado",
+            "all-statuses": "Todos los estados",
+            "all-types": "Todos los tipos",
+            "filter-status": "Filtrar por estado",
+            "filter-type": "Filtrar por tipo"
+        },
+        "form": {
+            "title": "Registrar incidencia",
+            "submit": "Registrar incidencia",
+            "select": "Selecciona una opción",
+            "operation": "Operación",
+            "type": "Tipo",
+            "severity": "Severidad",
+            "affected-quantity": "Cajas afectadas (opcional)",
+            "description": "Qué ocurrió",
+            "success": "La incidencia quedó registrada."
+        },
+        "advance": {
+            "title": "Actualizar incidencia {code}",
+            "resolution": "Resolución",
+            "resolution-required": "Describe cómo se resolvió la incidencia.",
+            "success": "{code} ahora está {status}.",
+            "to": {
+                "under_review": "Iniciar revisión",
+                "resolved": "Resolver",
+                "closed": "Cerrar"
+            }
+        },
+        "types": {
+            "broken_bottles": "Botellas rotas",
+            "damaged_product": "Producto dañado",
+            "shortage": "Faltante",
+            "delay": "Retraso"
+        },
+        "severities": {
+            "low": "Baja",
+            "medium": "Media",
+            "high": "Alta",
+            "critical": "Crítica"
+        },
+        "statuses": {
+            "reported": "Reportada",
+            "under_review": "En revisión",
+            "resolved": "Resuelta",
+            "closed": "Cerrada"
+        },
+        "sources": {
+            "fleet_supervisor": "Supervisor de flota",
+            "delivery_point": "Bodega",
+            "iot_alert": "Alerta IoT"
+        },
+        "dashboard": {
+            "title": "Dashboard",
+            "lead": "Indicadores de las operaciones de transporte de este mes.",
+            "loading": "Cargando los indicadores…",
+            "no-operations": "Todavía no hay operaciones registradas este mes.",
+            "operations": "Operaciones del mes",
+            "completed-deliveries": "Entregas completadas",
+            "open-incidents": "Incidencias abiertas",
+            "shrinkage": "Merma acumulada",
+            "boxes": "{quantity} cajas",
+            "in-progress": "Operaciones en curso",
+            "none-in-progress": "No hay operaciones en curso.",
+            "route": "Ruta",
+            "deliveries": "Entregas"
+        },
+        "evidence": {
+            "attach": "Evidencia",
+            "attach-aria": "Adjuntar evidencia a la incidencia {code}",
+            "title": "Evidencia de la incidencia {code}",
+            "submit": "Adjuntar evidencia",
+            "url": "URL de la foto",
+            "url-placeholder": "https://ejemplo.com/foto.jpg",
+            "url-invalid": "Ingresa una URL HTTP o HTTPS válida.",
+            "existing": "Evidencias adjuntas",
+            "loading": "Cargando evidencias…",
+            "empty": "Todavía no hay evidencias adjuntas.",
+            "open": "Abrir foto",
+            "success": "La evidencia quedó adjunta."
+        }
+    }
+}

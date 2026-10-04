@@ -1,0 +1,105 @@
+:root {
+    --background: #ffffff;
+    --foreground: #303030;
+    --chrome: #202020;
+    --surface: #ffffff;
+    --surface-muted: #f6f2ef;
+
+    --primary: #f97316;
+    --primary-mid: #b34900;
+    --primary-dark: #4f2000;
+    --primary-foreground: #ffffff;
+    --primary-soft: #ffedd5;
+
+    --line: #efeceb;
+    --border: #ded8d3;
+    --control: #c2c2c2;
+    --control-hover: #a3a3a3;
+
+    --danger: #e7000b;
+    --danger-strong: #c10007;
+    --danger-soft: #ffe2e2;
+
+    --warning: #eab308;
+    --warning-strong: #854d0e;
+    --warning-soft: #fef9c3;
+
+    --success: #30b875;
+    --success-strong: #044137;
+    --success-soft: #e0f5eb;
+
+    --info: #155dfc;
+    --info-strong: #1447e6;
+    --info-soft: #dbeafe;
+
+    --disabled: #eae7e5;
+    --disabled-ink: #a09a96;
+
+    --ink-80: color-mix(in srgb, var(--foreground) 80%, transparent);
+    --ink-70: color-mix(in srgb, var(--foreground) 70%, transparent);
+    --ink-60: color-mix(in srgb, var(--foreground) 60%, transparent);
+    --ink-50: color-mix(in srgb, var(--foreground) 50%, transparent);
+    --ink-40: color-mix(in srgb, var(--foreground) 40%, transparent);
+
+    --fill-5: color-mix(in srgb, var(--foreground) 5%, transparent);
+    --fill-10: color-mix(in srgb, var(--foreground) 10%, transparent);
+    --fill-20: color-mix(in srgb, var(--foreground) 20%, transparent);
+    --fill-40: color-mix(in srgb, var(--foreground) 40%, transparent);
+
+    --font-sans: "Manrope", "Segoe UI", system-ui, -apple-system, sans-serif;
+    --font-mono: ui-monospace, "SFMono-Regular", "Cascadia Code", Menlo, monospace;
+
+    --text-2xs: 0.625rem;
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
+
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+
+    --leading-tight: 1.2;
+    --leading-snug: 1.35;
+    --leading-normal: 1.6;
+
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-20: 5rem;
+    --space-24: 6rem;
+
+    --radius-sm: 0.25rem;
+    --radius-md: 0.375rem;
+    --radius-lg: 0.625rem;
+    --radius-xl: 1rem;
+    --radius-full: 9999px;
+
+    --shadow-sm: 0 1px 2px color-mix(in srgb, var(--foreground) 8%, transparent);
+    --shadow-md: 0 4px 12px color-mix(in srgb, var(--foreground) 10%, transparent);
+    --shadow-lg: 0 12px 32px color-mix(in srgb, var(--foreground) 14%, transparent);
+
+    --container: 72rem;
+    --transition: 160ms ease;
+}
+
+@media (max-width: 48rem) {
+    :root {
+        --text-5xl: 2.25rem;
+        --text-4xl: 1.875rem;
+        --text-3xl: 1.5rem;
+    }
+}

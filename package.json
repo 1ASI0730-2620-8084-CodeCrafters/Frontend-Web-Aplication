@@ -1,7 +1,7 @@
 {
     "name": "bottletrack-web-application",
     "private": true,
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "BottleTrack Frontend Web Application: transport tracking for bottled beverages with IoT monitoring and incident reporting. Built with Vue, Vite, Pinia, PrimeVue and Axios in JavaScript.",
     "type": "module",
     "scripts": {
