@@ -80,6 +80,12 @@ Demo users of the fake API, all with the password `BottleTrack2026`:
 
 The fake API runs on `http://localhost:3000/api/v1` and the application on `http://localhost:5173`.
 
+## Production API
+
+The production build reads `.env.production`, which points to the public mock API on Beeceptor. Because the free Beeceptor plan allows few requests per day, the application downloads the whole data set once per browser tab from `VITE_API_SNAPSHOT_PATH` and `src/shared/infrastructure/snapshot.adapter.js` answers every other request in the browser with the same rules as json-server. In development the adapter is disabled and json-server answers every request.
+
+The Beeceptor endpoint needs a single rule: `GET /api/v1/db` returning the content of `server/db.json` with the `Content-Type: application/json` header.
+
 ## Workflow
 
 GitFlow with `main`, `develop` and `feature/<kebab-case>` branches, Conventional Commits and Semantic Versioning.
