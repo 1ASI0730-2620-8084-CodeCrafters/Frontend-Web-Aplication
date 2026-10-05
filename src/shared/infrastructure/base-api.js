@@ -1,6 +1,8 @@
 import axios from 'axios';
+import { snapshotAdapter } from './snapshot.adapter.js';
 
 const platformApiUrl = import.meta.env.VITE_API_BASE_URL;
+const usesSnapshot = Boolean(import.meta.env.VITE_API_SNAPSHOT_PATH);
 const requestInterceptors = [];
 
 export function registerRequestInterceptor(interceptor) {
@@ -14,7 +16,8 @@ export class BaseApi {
         this.#http = axios.create({
             baseURL: platformApiUrl,
             headers: { 'Content-Type': 'application/json' },
-            paramsSerializer: { indexes: null }
+            paramsSerializer: { indexes: null },
+            ...(usesSnapshot && { adapter: snapshotAdapter })
         });
         this.#http.interceptors.request.use(config => requestInterceptors.reduce((current, interceptor) => interceptor(current), config));
     }
